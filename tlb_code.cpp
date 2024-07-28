@@ -24,7 +24,7 @@ int main(int argc, char * argv[]) {
     ifstream TempOutput2;
     Page_Table.open(Page_Table_Add);
     TLB_Access.open(TLB_Access_Add);
-    string s = "22125037_" + Page_Table_Add + "_" + TLB_Access_Add + "_LRU_" + Assoc_Temp;
+    string s = "22125016_" + Page_Table_Add + "_" + TLB_Access_Add + "_LRU_" + Assoc_Temp;
     string s_ = s + "_TempOutput";
     TempOutput1.open(s_);
     OutputFinal.open(s);
